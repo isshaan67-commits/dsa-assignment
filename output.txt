@@ -1,0 +1,24 @@
+=== Part (a): BST Construction ===
+Inserted A102   (comparisons: 0)
+Inserted A25    (comparisons: 1)
+Inserted A7     (comparisons: 2)
+Inserted B100   (comparisons: 3)
+Inserted B12    (comparisons: 4)
+Inserted A120   (comparisons: 2)
+Inserted B3     (comparisons: 5)
+Inserted A45    (comparisons: 3)
+
+Inorder Traversal: A102 A120 A25 A45 A7 B100 B12 B3 
+Tree Height (edges from root): 5
+
+=== Part (b): BST Search vs Linear Search ===
+Key    BST_Comps  Linear_Comps   Result
+A102   1          1              found
+B3     6          7              found
+A45    4          8              found
+C1     6          8              not found
+
+=== Part (c): Effect of Insertion Order (sorted-order insertion) ===
+Inorder Traversal: A102 A120 A25 A45 A7 B100 B12 B3 
+Tree Height (edges from root): 7
+Search 'B3' in sorted-insertion tree -> comparisons: 8
